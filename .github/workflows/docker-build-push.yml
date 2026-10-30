@@ -8,7 +8,7 @@ on:
   workflow_dispatch: {}
 
 env:
-  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/frontend-proyecto-plataformas
+  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/frontend-2026
 
 jobs:
   build-and-push:
